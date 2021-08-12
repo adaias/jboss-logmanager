@@ -332,7 +332,7 @@ public final class Logger extends java.util.logging.Logger implements Serializab
      * @throws SecurityException always
      */
     public void setParent(java.util.logging.Logger parent) {
-        throw new SecurityException("setParent() disallowed");
+//        throw new SecurityException("setParent() disallowed");
     }
 
     /**
